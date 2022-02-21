@@ -1,0 +1,178 @@
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1;
+}
+
+.HolyGrail-content {
+  flex: 1;
+}
+
+.HolyGrail-nav, .HolyGrail-ads {
+  /* 25% is the width of the columns */
+  flex: 0 0 25%;
+}
+
+.HolyGrail-nav {
+  /* put the nav on the left */
+  order: -1;
+}
+
+header, footer {
+  background-color: lightblue;
+  line-height: 5rem;
+  text-align: center;
+  padding: 0 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main, nav, aside {
+  padding: 1rem;
+}
+
+footer {
+  line-height: 3rem;
+  font-size: 1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  text-decoration: none; /*no funciona*/
+}
+
+/******* CALCULADORA STYLES *********/
+
+.Calculator {
+  margin: 0 auto;
+  max-width: 300px;
+
+}
+
+.Display {
+  text-align: right;
+  background-color: darkblue;
+  padding: 30px;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+
+.Numbers, .Buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: orange;
+}
+
+:is(.Numbers, .Buttons) button {
+  flex: 0 0 33%;
+  padding: 30px;
+  background: lightgoldenrodyellow;
+  cursor: pointer;
+}
+
+.Numbers button:hover {
+  background-color: white;
+}
+
+.Numbers button:active {
+  background-color: grey;
+}
+
+.Buttons button {
+  background-color: aliceblue;
+}
+.Buttons {
+  background-color: lightskyblue;
+}
+
+
+
+/******* COMPTADOR STYLES *********/
+
+
+.Comptador{
+  margin: 20px auto;
+  max-width: 300px;
+
+}
+
+.Comptador__Display {
+  text-align: right;
+  background-color: darkblue;
+  padding: 30px;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+
+.Comptador__Buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: orange;
+}
+
+.Comptador__button {
+  flex: 0 50%;
+  padding: 30px;
+  background-color: lightsteelblue;
+  cursor: pointer;
+}
+
+.Comptador__button:hover {
+  background-color: whitesmoke;
+}
+
+.Comptador__button:active {
+  background-color: grey;
+}
+
+
+/******* GRAELLA FOTOS STYLES *********/
+
+.container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+picture {
+  display: grid;
+  justify-content: center;
+}
+
+.full-screen {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+
+}
+
+
+
+/******* ACORDIO STYLES *********/
+
+.Text {
+  display: block;
+  }
+  
+  .Text-none {
+    display: none;
+  }
