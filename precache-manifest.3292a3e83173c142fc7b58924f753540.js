@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "427064398af6954379ff8523808aad39",
+    "revision": "8e13420d6628ed605140c530ad642bc5",
     "url": "/TC-React2022-exercicis/index.html"
   },
   {
-    "revision": "4d83672c7dd13219951a",
+    "revision": "6468f07230e7d96ccc33",
     "url": "/TC-React2022-exercicis/static/css/main.f401c368.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TC-React2022-exercicis/static/js/3.7fa365a8.chunk.js"
   },
   {
-    "revision": "4d83672c7dd13219951a",
-    "url": "/TC-React2022-exercicis/static/js/main.d4b62f85.chunk.js"
+    "revision": "6468f07230e7d96ccc33",
+    "url": "/TC-React2022-exercicis/static/js/main.e3cae18b.chunk.js"
   },
   {
     "revision": "74aa507b203bbe746b0e",
