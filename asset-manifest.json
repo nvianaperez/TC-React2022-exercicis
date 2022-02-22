@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TC-React2022-exercicis/static/css/main.f401c368.chunk.css",
-    "main.js": "/TC-React2022-exercicis/static/js/main.e3cae18b.chunk.js",
-    "main.js.map": "/TC-React2022-exercicis/static/js/main.e3cae18b.chunk.js.map",
+    "main.js": "/TC-React2022-exercicis/static/js/main.31f31ef0.chunk.js",
+    "main.js.map": "/TC-React2022-exercicis/static/js/main.31f31ef0.chunk.js.map",
     "runtime~main.js": "/TC-React2022-exercicis/static/js/runtime~main.91fa48d4.js",
     "runtime~main.js.map": "/TC-React2022-exercicis/static/js/runtime~main.91fa48d4.js.map",
     "static/js/2.da052bc4.chunk.js": "/TC-React2022-exercicis/static/js/2.da052bc4.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.7fa365a8.chunk.js": "/TC-React2022-exercicis/static/js/3.7fa365a8.chunk.js",
     "static/js/3.7fa365a8.chunk.js.map": "/TC-React2022-exercicis/static/js/3.7fa365a8.chunk.js.map",
     "index.html": "/TC-React2022-exercicis/index.html",
-    "precache-manifest.3292a3e83173c142fc7b58924f753540.js": "/TC-React2022-exercicis/precache-manifest.3292a3e83173c142fc7b58924f753540.js",
+    "precache-manifest.4e58a49d763a283b27ad7117ca8a8d04.js": "/TC-React2022-exercicis/precache-manifest.4e58a49d763a283b27ad7117ca8a8d04.js",
     "service-worker.js": "/TC-React2022-exercicis/service-worker.js",
     "static/css/main.f401c368.chunk.css.map": "/TC-React2022-exercicis/static/css/main.f401c368.chunk.css.map"
   }
