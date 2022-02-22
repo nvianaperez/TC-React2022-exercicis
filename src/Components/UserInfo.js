@@ -1,4 +1,5 @@
 import AvatarComponent from "../Components/AvatarComponent";
+import React from "react";
 
 export default function UserInfo({ user }) {
   return (

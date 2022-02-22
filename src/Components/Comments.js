@@ -1,4 +1,5 @@
 import UserInfo from "../Components/UserInfo";
+import React from "react";
 
 export default function Comment({ author, text, date }) {
   return (

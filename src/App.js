@@ -9,6 +9,7 @@ import GraellaFotos from "./pages/GraellaFotos";
 import Acordio from "./pages/Acordio";
 import ToggleButton from "./pages/ToggleButton";
 import NoPage from "./pages/NoPage";
+import React from "react";
 
 function App() {
   return (
