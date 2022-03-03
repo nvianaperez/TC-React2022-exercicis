@@ -1,8 +1,9 @@
 /******** USEREDUX  **********/
 
 import { useDispatch, useSelector } from "react-redux";
-import './App.css';
+import '../../App.css';
 import { increment, reset, getCount } from "./counterRed";
+import React from "react";
 
 
 export default function CounterUseReducer() {

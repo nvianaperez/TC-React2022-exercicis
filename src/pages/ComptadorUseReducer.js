@@ -1,4 +1,5 @@
-import CounterUseReducer from "./CounterUseReducer";
+import CounterUseReducer from "../Components/ComptadorComponents/CounterUseReducer";
+import React from "react";
 
 export default function ComptadorUseReducer() {
   return (

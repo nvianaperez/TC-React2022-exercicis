@@ -1,7 +1,7 @@
 /******** USEREDUCER AMB PATRONS **********/
-
+import React from "react";
 import { useReducer } from "react";
-import './App.css';
+import './src/App.css';
 import { counter, increment, reset } from "./counter";
 
 export default function CounterUseReducer() {

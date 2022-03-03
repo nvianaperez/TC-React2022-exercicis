@@ -1,5 +1,6 @@
 import {useState} from "react";
-import './App.css';
+import './src/App.css';
+import React from "react";
 
 export default function ComptadorUseState() {
   const counter =  (state) => state + 1;

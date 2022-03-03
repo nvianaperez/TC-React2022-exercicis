@@ -1,5 +1,5 @@
 /**************** REDUX AMB PATRONS **************/
-
+import React from "react";
 import CounterUseReducer from "./ComptadorUseReducer";
 import { combineReducers, createStore } from "redux";
 import { counter } from "../Components/ComptadorComponents/counterRed";
