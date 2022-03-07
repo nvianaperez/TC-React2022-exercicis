@@ -1,5 +1,5 @@
 import {useState} from "react";
-import './src/App.css';
+import '../App.css';
 import React from "react";
 
 export default function ComptadorUseState() {

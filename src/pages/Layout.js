@@ -32,6 +32,15 @@ export default function Layout() {
             <li>
               <Link to="/toggle-button">Toggle button</Link>
             </li>
+            <li>
+              <Link to="/comptador-useState">Comptador useState</Link>
+            </li>
+            <li>
+              <Link to="/comptador-useReducer">Comptador useReducer</Link>
+            </li>
+            <li>
+              <Link to="/comptador-Redux">Comptador Redux</Link>
+            </li>
           </ul>
         </nav>
         <aside class="HolyGrail-ads">Aside</aside>
