@@ -4,7 +4,10 @@ import CounterUseReducer from "./ComptadorUseReducer";
 import { combineReducers, createStore } from "redux";
 import { counter } from "../Components/ComptadorComponents/counterRed";
 import { Provider } from "react-redux";
-import CounterRedux from "../Components/ComptadorComponents/CounterRedux";
+import { CounterReduxCount, CounterReduxIncrement, CounterReduxReset } from "../Components/ComptadorComponents/CounterRedux";
+//la ruta de CounterRedux és errònea, llavors anirà a buscar el index.js
+import { CounterRedux } from "../Components/ComptadorComponents";
+
 
 //quan volem combinar diferents objectes amb diferents estats utilitzem l'API combineReducers
 const reducer = combineReducers({
@@ -15,7 +18,10 @@ const reducer = combineReducers({
 //combineReducer canvia la forma de l'state --> getCount
 
 
-const store = createStore(reducer);
+const store = createStore(
+  reducer, 
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 // l'estat inicial l'informem al reducer (counter) on hi ha la lògica
 
 
@@ -26,7 +32,11 @@ export default function ComptadorRedux() {
         <CounterRedux />
         <CounterRedux />
         <CounterUseReducer />
-        <CounterUseReducer />
+        <br />
+        <hr />
+        <CounterReduxCount />
+        <CounterReduxIncrement amount="+44" />
+        <CounterReduxReset />
       </>
     </Provider>
   );

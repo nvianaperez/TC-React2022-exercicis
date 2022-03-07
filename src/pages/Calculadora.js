@@ -7,7 +7,7 @@ function Button({ onPressed, children }) {
   return <button onClick={onPressed}>{children}</button>;
 }
 
-export default function Calculadora() {
+export function Calculadora() {
   const [display, setDisplay] = useState(0);
   const [anterior, setAnterior] = useState(0);
   const [operacio, setOperacio] = useState("");

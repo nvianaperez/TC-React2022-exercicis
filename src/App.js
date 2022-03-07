@@ -1,22 +1,21 @@
 import "./App.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import Avatar from "./pages/Avatar";
-import Calculadora from "./pages/Calculadora";
-import Comptador from "./pages/Comptador";
-import GraellaFotos from "./pages/GraellaFotos";
-import Acordio from "./pages/Acordio";
-import ToggleButton from "./pages/ToggleButton";
-import ComptadorUseState from "./pages/ComptadorUseState";
+import { Layout } from "./pages/Layout";
+import { Home } from "./pages/Home";
+import { Avatar } from "./pages/Avatar";
+import { Calculadora } from "./pages/Calculadora";
+import { Comptador } from "./pages/Comptador";
+import { GraellaFotos } from "./pages/GraellaFotos";
+import { Acordio } from "./pages/Acordio";
+import { ToggleButton } from "./pages/ToggleButton";
+import { ComptadorUseState } from "./pages/ComptadorUseState";
 import ComptadorUseReducer from "./pages/ComptadorUseReducer";
 import ComptadorRedux from "./pages/ComptadorRedux";
-
-
 import NoPage from "./pages/NoPage";
 import React from "react";
 
-function App() {
+//UNIC EXPORT DEFAULT
+export default function App() {
   return (
     <HashRouter>
       <Routes>
@@ -38,4 +37,3 @@ function App() {
   );
 }
 
-export default App;

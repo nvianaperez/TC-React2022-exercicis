@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function ToggleButton() {
+export function ToggleButton() {
   const [color, setcolor] = useState("yellow");
 
   const buttonPressed = color !== "yellow";

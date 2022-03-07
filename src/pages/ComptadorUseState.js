@@ -2,7 +2,7 @@ import {useState} from "react";
 import '../App.css';
 import React from "react";
 
-export default function ComptadorUseState() {
+export function ComptadorUseState() {
   const counter =  (state) => state + 1;
   const [count,setCount] = useState(0);
   return (

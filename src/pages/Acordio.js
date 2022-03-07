@@ -9,7 +9,7 @@ const acordioArr = [
   { id: 4, titol: "Títol 4", text: "Contingut 4" },
 ];
 
-export default function Acordio() {
+export function Acordio() {
   const [textClicked, setTextClicked] = useState("null");
 
   const newDisplay = (element) => {

@@ -2,7 +2,7 @@ import Comment from "../Components/Comments";
 import React from "react";
 import "../App.css";
 
-export default function Avatar() {
+export function Avatar() {
   return (
     <Comment
       author={{

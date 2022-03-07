@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
 
-export default function Comptador() {
+export function Comptador() {
   const [display, setDisplay] = useState(0);
 
   const controlOperacio = (operacio) => {
