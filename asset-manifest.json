@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/TC-React2022-exercicis/static/css/main.f401c368.chunk.css",
-    "main.js": "/TC-React2022-exercicis/static/js/main.e9f2a5bd.chunk.js",
-    "main.js.map": "/TC-React2022-exercicis/static/js/main.e9f2a5bd.chunk.js.map",
-    "runtime~main.js": "/TC-React2022-exercicis/static/js/runtime~main.91fa48d4.js",
-    "runtime~main.js.map": "/TC-React2022-exercicis/static/js/runtime~main.91fa48d4.js.map",
-    "static/js/2.d8c2ccd5.chunk.js": "/TC-React2022-exercicis/static/js/2.d8c2ccd5.chunk.js",
-    "static/js/2.d8c2ccd5.chunk.js.map": "/TC-React2022-exercicis/static/js/2.d8c2ccd5.chunk.js.map",
-    "static/js/3.7fa365a8.chunk.js": "/TC-React2022-exercicis/static/js/3.7fa365a8.chunk.js",
-    "static/js/3.7fa365a8.chunk.js.map": "/TC-React2022-exercicis/static/js/3.7fa365a8.chunk.js.map",
+    "main.css": "/TC-React2022-exercicis/static/css/main.b49c62e0.chunk.css",
+    "main.js": "/TC-React2022-exercicis/static/js/main.0981a0ba.chunk.js",
+    "main.js.map": "/TC-React2022-exercicis/static/js/main.0981a0ba.chunk.js.map",
+    "runtime-main.js": "/TC-React2022-exercicis/static/js/runtime-main.859f404a.js",
+    "runtime-main.js.map": "/TC-React2022-exercicis/static/js/runtime-main.859f404a.js.map",
+    "static/js/2.4747b88a.chunk.js": "/TC-React2022-exercicis/static/js/2.4747b88a.chunk.js",
+    "static/js/2.4747b88a.chunk.js.map": "/TC-React2022-exercicis/static/js/2.4747b88a.chunk.js.map",
+    "static/js/3.8d0e71ae.chunk.js": "/TC-React2022-exercicis/static/js/3.8d0e71ae.chunk.js",
+    "static/js/3.8d0e71ae.chunk.js.map": "/TC-React2022-exercicis/static/js/3.8d0e71ae.chunk.js.map",
     "index.html": "/TC-React2022-exercicis/index.html",
-    "precache-manifest.9db9b7c7d0ea136e1f105fe7a0d5649c.js": "/TC-React2022-exercicis/precache-manifest.9db9b7c7d0ea136e1f105fe7a0d5649c.js",
+    "precache-manifest.3054653ce3f2191c3183e320e5658621.js": "/TC-React2022-exercicis/precache-manifest.3054653ce3f2191c3183e320e5658621.js",
     "service-worker.js": "/TC-React2022-exercicis/service-worker.js",
-    "static/css/main.f401c368.chunk.css.map": "/TC-React2022-exercicis/static/css/main.f401c368.chunk.css.map"
-  }
+    "static/css/main.b49c62e0.chunk.css.map": "/TC-React2022-exercicis/static/css/main.b49c62e0.chunk.css.map",
+    "static/js/2.4747b88a.chunk.js.LICENSE.txt": "/TC-React2022-exercicis/static/js/2.4747b88a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.859f404a.js",
+    "static/js/2.4747b88a.chunk.js",
+    "static/css/main.b49c62e0.chunk.css",
+    "static/js/main.0981a0ba.chunk.js"
+  ]
 }
