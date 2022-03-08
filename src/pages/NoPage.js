@@ -1,5 +1,5 @@
 import React from "react";
-export default function NoPage() {
+export function NoPage() {
   return (
     <>
       <h3>Ups! Página no encontrada</h3>

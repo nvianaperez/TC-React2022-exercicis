@@ -1,12 +1,14 @@
 /**************** REDUX AMB PATRONS **************/
 import React from "react";
-import CounterUseReducer from "./ComptadorUseReducer";
+import { CounterUseReducer } from "../Components/CounterUseReducer/CounterUseReducer";
 import { combineReducers, createStore } from "redux";
-import { counter } from "../Components/ComptadorComponents/counterRed";
+import { counter } from "../Components/CounterRedux/counterRed";
 import { Provider } from "react-redux";
-import { CounterReduxCount, CounterReduxIncrement, CounterReduxReset } from "../Components/ComptadorComponents/CounterRedux";
+import { CounterReduxCount } from "../Components/CounterRedux/CounterReduxCount";
+import { CounterReduxIncrement } from "../Components/CounterRedux/CounterReduxIncrement";
+import { CounterReduxReset } from "../Components/CounterRedux/CounterReduxReset";
 //la ruta de CounterRedux és errònea, llavors anirà a buscar el index.js
-import { CounterRedux } from "../Components/ComptadorComponents";
+import { CounterRedux } from "../Components/CounterRedux/CounterRedux";
 
 
 //quan volem combinar diferents objectes amb diferents estats utilitzem l'API combineReducers
@@ -25,7 +27,7 @@ const store = createStore(
 // l'estat inicial l'informem al reducer (counter) on hi ha la lògica
 
 
-export default function ComptadorRedux() {
+export function ComptadorRedux() {
   return (
     <Provider store={store}>
       <>

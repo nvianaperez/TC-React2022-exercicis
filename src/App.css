@@ -147,13 +147,17 @@ li {
 
 .container {
   display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
 
 picture {
   display: grid;
   justify-content: center;
+}
+
+img {
+  padding: 20px;
 }
 
 .full-screen {

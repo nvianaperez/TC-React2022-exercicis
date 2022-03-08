@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import React from "react";
+import llista from "./llista";
 
 export function Layout() {
   return (
@@ -14,33 +15,11 @@ export function Layout() {
             <li>
               <Link to="/">Home</Link>
             </li>
-            <li>
-              <Link to="/avatar">Avatar</Link>{" "}
-            </li>
-            <li>
-              <Link to="/calculadora">Calculadora</Link>
-            </li>
-            <li>
-              <Link to="/comptador">Comptador</Link>
-            </li>
-            <li>
-              <Link to="/graella-fotos">Graella de fotos</Link>
-            </li>
-            <li>
-              <Link to="/acordio">Acordio</Link>
-            </li>
-            <li>
-              <Link to="/toggle-button">Toggle button</Link>
-            </li>
-            <li>
-              <Link to="/comptador-useState">Comptador useState</Link>
-            </li>
-            <li>
-              <Link to="/comptador-useReducer">Comptador useReducer</Link>
-            </li>
-            <li>
-              <Link to="/comptador-Redux">Comptador Redux</Link>
-            </li>
+            {llista.map((el) => (
+              <li>
+                <Link to={el.path}>{el.titol}</Link>
+              </li>
+            ))}
           </ul>
         </nav>
         <aside class="HolyGrail-ads">Aside</aside>
