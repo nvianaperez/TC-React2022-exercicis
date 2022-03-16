@@ -13,9 +13,10 @@
   flex: 1;
 }
 
-.HolyGrail-nav, .HolyGrail-ads {
+.HolyGrail-nav,
+.HolyGrail-ads {
   /* 25% is the width of the columns */
-  flex: 0 0 25%;
+  flex: 0 0 20%;
 }
 
 .HolyGrail-nav {
@@ -23,7 +24,8 @@
   order: -1;
 }
 
-header, footer {
+header,
+footer {
   background-color: lightblue;
   line-height: 5rem;
   text-align: center;
@@ -32,7 +34,9 @@ header, footer {
   font-weight: bold;
 }
 
-main, nav, aside {
+main,
+nav,
+aside {
   padding: 1rem;
 }
 
@@ -55,7 +59,6 @@ li {
 .Calculator {
   margin: 0 auto;
   max-width: 300px;
-
 }
 
 .Display {
@@ -68,8 +71,8 @@ li {
   font-family: monospace;
 }
 
-
-.Numbers, .Buttons {
+.Numbers,
+.Buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -98,15 +101,11 @@ li {
   background-color: lightskyblue;
 }
 
-
-
 /******* COMPTADOR STYLES *********/
 
-
-.Comptador{
+.Comptador {
   margin: 20px auto;
   max-width: 300px;
-
 }
 
 .Comptador__Display {
@@ -118,7 +117,6 @@ li {
   font-weight: bold;
   font-family: monospace;
 }
-
 
 .Comptador__Buttons {
   display: flex;
@@ -142,7 +140,6 @@ li {
   background-color: grey;
 }
 
-
 /******* GRAELLA FOTOS STYLES *********/
 
 .container {
@@ -158,38 +155,38 @@ picture {
 
 img {
   padding: 20px;
+  width: 20vw;
+  height: auto;
+  cursor: pointer;
 }
 
-.full-screen {
-  position: absolute;
+.full-screen img {
   top: 0px;
   left: 0px;
   width: 100%;
   height: auto;
-
+  cursor: pointer;
 }
-
-
 
 /******* ACORDIO STYLES *********/
 
 .Text {
   display: block;
-  }
-  
-  .Text-none {
-    display: none;
-  }
+}
+
+.Text-none {
+  display: none;
+}
 
 /******* COMPTADOR USESTATE *********/
 
-  .Comptador-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .Comptador-button {
-    margin-top: 20px;
-    width: 20%;
-  }
+.Comptador-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Comptador-button {
+  margin-top: 20px;
+  width: 20%;
+}

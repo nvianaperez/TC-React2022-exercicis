@@ -5,9 +5,14 @@ export function ToggleButton() {
 
   const buttonPressed = color !== "yellow";
 
+  // const toggle = () => {
+  //   if (color) setcolor("green");
+  //   if (color === "green") setcolor("yellow");
+  // };
+
   const toggle = () => {
-    if (color) setcolor("green");
-    if (color === "green") setcolor("yellow");
+    if (color === "yellow") setcolor("green");
+    else setcolor("yellow");
   };
 
   return (
