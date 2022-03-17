@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TC-React2022-exercicis/precache-manifest.008ca15fffb93f883ec20e4056317f60.js"
+  "/TC-React2022-exercicis/precache-manifest.1728ab7ba1dba1b02c48a522eba06b34.js"
 );
 
 self.addEventListener('message', (event) => {
