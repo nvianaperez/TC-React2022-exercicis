@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43d9b89fe87b207f138a898ed43c6078",
+    "revision": "f9532308583988bcdaf30bb6e8dde11b",
     "url": "/TC-React2022-exercicis/index.html"
   },
   {
