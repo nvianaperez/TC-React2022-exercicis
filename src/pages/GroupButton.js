@@ -14,15 +14,24 @@ export const GroupButton = () => {
         <button
           className="square-button"
           // ESTADO DERIVADO
-          // style={{ background: "" ? "pink" : "" }}
+          // style={{ background: (text === "Text A" ? "pink" : "" )}}
+          style={{ background: text === "Text A" ? "pink" : "" }}
           onClick={() => mostrarText("Text A")}
         >
           Text A
         </button>
-        <button className="square-button" onClick={() => mostrarText("Text B")}>
+        <button
+          className="square-button"
+          style={{ background: text === "Text B" ? "pink" : "" }}
+          onClick={() => mostrarText("Text B")}
+        >
           Text B
         </button>
-        <button className="square-button" onClick={() => mostrarText("Text C")}>
+        <button
+          className="square-button"
+          style={{ background: text === "Text C" ? "pink" : "" }}
+          onClick={() => mostrarText("Text C")}
+        >
           Text C
         </button>
       </div>
