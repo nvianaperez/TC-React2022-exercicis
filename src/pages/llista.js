@@ -9,11 +9,13 @@ import { ComptadorUseState } from "./ComptadorUseState";
 import { ComptadorUseReducer } from "./ComptadorUseReducer";
 import { ComptadorRedux } from "./ComptadorRedux";
 import { Carrusel } from "./Carrusel";
+import { GroupButton } from "./GroupButton";
 
 const llista = [
   { path: "/avatar", titol: "Avatar", element: <Avatar /> },
   { path: "/toggle-button", titol: "Toggle button", element: <ToggleButton /> },
   { path: "/comptador", titol: "Comptador", element: <Comptador /> },
+  { path: "/group-button", titol: "Group Button", element: <GroupButton /> },
   {
     path: "/graella-fotos",
     titol: "Graella de fotos",

@@ -37,7 +37,7 @@ footer {
 main,
 nav,
 aside {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 footer {
@@ -222,4 +222,33 @@ img {
   z-index: 10;
   cursor: pointer;
   user-select: none;
+}
+
+/******* GROUP BUTTON STYLES *********/
+
+.group-button-container {
+  text-align: center;
+}
+.group-button {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.square-button {
+  width: 10vw;
+  height: 10vh;
+}
+.square-button:first-child {
+  margin-right: 2rem;
+}
+.square-button:last-child {
+  margin-left: 2rem;
+}
+.text-mostrar-container {
+  background: pink;
+  margin: 0 auto;
+  width: 15vw;
+  height: 10vh;
+  padding-top: 4vh;
 }
