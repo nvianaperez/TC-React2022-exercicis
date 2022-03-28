@@ -10,12 +10,19 @@ import { ComptadorUseReducer } from "./ComptadorUseReducer";
 import { ComptadorRedux } from "./ComptadorRedux";
 import { Carrusel } from "./Carrusel";
 import { GroupButton } from "./GroupButton";
+import { ToggleableSidebar } from "./ToggleableSidebar";
 
 const llista = [
   { path: "/avatar", titol: "Avatar", element: <Avatar /> },
   { path: "/toggle-button", titol: "Toggle button", element: <ToggleButton /> },
   { path: "/comptador", titol: "Comptador", element: <Comptador /> },
   { path: "/group-button", titol: "Group Button", element: <GroupButton /> },
+  {
+    path: "/toggleable-sidebar",
+    titol: "Toggleable sidebar",
+    element: <ToggleableSidebar />,
+  },
+
   {
     path: "/graella-fotos",
     titol: "Graella de fotos",
