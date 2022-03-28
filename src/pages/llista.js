@@ -11,6 +11,7 @@ import { ComptadorRedux } from "./ComptadorRedux";
 import { Carrusel } from "./Carrusel";
 import { GroupButton } from "./GroupButton";
 import { ToggleableSidebar } from "./ToggleableSidebar";
+import { Tabs } from "./Tabs";
 
 const llista = [
   { path: "/avatar", titol: "Avatar", element: <Avatar /> },
@@ -21,6 +22,11 @@ const llista = [
     path: "/toggleable-sidebar",
     titol: "Toggleable sidebar",
     element: <ToggleableSidebar />,
+  },
+  {
+    path: "/tabs",
+    titol: "Tabs",
+    element: <Tabs />,
   },
 
   {
