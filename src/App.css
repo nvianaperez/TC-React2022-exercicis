@@ -264,6 +264,7 @@ img {
   border: 1px solid grey;
   background-color: rgb(215, 235, 241);
   height: 50vh;
+  width: 15vw;
   position: relative;
 }
 .sidebar-text {
