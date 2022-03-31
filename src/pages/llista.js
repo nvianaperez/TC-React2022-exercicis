@@ -12,6 +12,8 @@ import { Carrusel } from "./Carrusel";
 import { GroupButton } from "./GroupButton";
 import { ToggleableSidebar } from "./ToggleableSidebar";
 import { Tabs } from "./Tabs";
+// import { RellotgeDigital } from "./RellotgeDigital";
+import { TicToe } from "./TicToe";
 
 const llista = [
   { path: "/avatar", titol: "Avatar", element: <Avatar /> },
@@ -27,6 +29,16 @@ const llista = [
     path: "/tabs",
     titol: "Tabs",
     element: <Tabs />,
+  },
+  // {
+  //   path: "/rellotge-digital",
+  //   titol: "Rellotge digital",
+  //   element: <RellotgeDigital />,
+  // },
+  {
+    path: "/tic-toe",
+    titol: "Tic Toe",
+    element: <TicToe />,
   },
 
   {
