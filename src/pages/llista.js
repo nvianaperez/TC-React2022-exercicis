@@ -1,19 +1,19 @@
 import React from "react";
-import { Avatar } from "./Avatar";
-import { Calculadora } from "./Calculadora";
-import { Comptador } from "./Comptador";
-import { GraellaFotos } from "./GraellaFotos";
-import { Acordio } from "./Acordio";
-import { ToggleButton } from "./ToggleButton";
-import { ComptadorUseState } from "./ComptadorUseState";
-import { ComptadorUseReducer } from "./ComptadorUseReducer";
-import { ComptadorRedux } from "./ComptadorRedux";
-import { Carrusel } from "./Carrusel";
-import { GroupButton } from "./GroupButton";
-import { ToggleableSidebar } from "./ToggleableSidebar";
-import { Tabs } from "./Tabs";
+import { Avatar } from "./Avatar/Avatar";
+import { Calculadora } from "./Calculadora/Calculadora";
+import { Comptador } from "./Comptador+5/Comptador";
+import { GraellaFotos } from "./GraellaFotos/GraellaFotos";
+import { Acordio } from "./Acordio/Acordio";
+import { ToggleButton } from "./ToggleButton/ToggleButton";
+import { ComptadorUseState } from "./Comptador-useState/ComptadorUseState";
+import { ComptadorUseReducer } from "./Comptador-useReducer/ComptadorUseReducer";
+import { ComptadorRedux } from "./Comptador-Redux/ComptadorRedux";
+import { Carrusel } from "./Carrusel/Carrusel";
+import { GroupButton } from "./GroupButton/GroupButton";
+import { ToggleableSidebar } from "./ToggleSidebar/ToggleableSidebar";
+import { Tabs } from "./Tabs/Tabs";
 // import { RellotgeDigital } from "./RellotgeDigital";
-import { TicToe } from "./TicToe";
+import { TicToe } from "./TicToe/TicToe";
 
 const llista = [
   { path: "/avatar", titol: "Avatar", element: <Avatar /> },

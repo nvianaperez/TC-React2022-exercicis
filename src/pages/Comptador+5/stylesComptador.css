@@ -1,0 +1,38 @@
+/******* COMPTADOR STYLES *********/
+
+.Comptador {
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+.Comptador__Display {
+  text-align: right;
+  background-color: darkblue;
+  padding: 30px;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.Comptador__Buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: orange;
+}
+
+.Comptador__button {
+  flex: 0 50%;
+  padding: 30px;
+  background-color: lightsteelblue;
+  cursor: pointer;
+}
+
+.Comptador__button:hover {
+  background-color: whitesmoke;
+}
+
+.Comptador__button:active {
+  background-color: grey;
+}

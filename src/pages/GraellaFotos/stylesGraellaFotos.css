@@ -1,0 +1,27 @@
+/******* GRAELLA FOTOS STYLES *********/
+
+.container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+picture {
+  display: grid;
+  justify-content: center;
+}
+
+img {
+  padding: 20px;
+  width: 20vw;
+  height: auto;
+  cursor: pointer;
+}
+
+.full-screen img {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}

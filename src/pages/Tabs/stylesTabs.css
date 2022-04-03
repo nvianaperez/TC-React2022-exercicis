@@ -1,0 +1,25 @@
+/******* TABS *********/
+
+.tabs-container {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabs-buttons button {
+  width: 10vw;
+  border-radius: 5px;
+}
+.tabs-buttons button:hover {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.tabs-buttons button:first-child {
+  margin-right: 1rem;
+}
+.tabs-text {
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+}

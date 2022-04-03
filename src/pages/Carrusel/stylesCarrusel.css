@@ -1,0 +1,33 @@
+/******* CARRUSEL STYLES *********/
+
+.carrusel {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-carrusel {
+  width: 30vw;
+  height: auto;
+  border-radius: 40px;
+}
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  font-size: 2rem;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  font-size: 2rem;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}

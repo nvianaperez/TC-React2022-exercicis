@@ -1,0 +1,22 @@
+/******* TOGGLEABLE SIDEBAR *********/
+
+.sidebar-container {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar {
+  border: 1px solid grey;
+  background-color: rgb(215, 235, 241);
+  height: 50vh;
+  width: 15vw;
+  position: relative;
+}
+.sidebar-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.menu-icon {
+  font-size: 2rem;
+}

@@ -13,11 +13,15 @@ export function Layout() {
         <nav class="HolyGrail-nav">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
             </li>
             {llista.map((el) => (
               <li>
-                <Link to={el.path}>{el.titol}</Link>
+                <Link className="nav-link" to={el.path}>
+                  {el.titol}
+                </Link>
               </li>
             ))}
           </ul>

@@ -1,0 +1,7 @@
+/******* RELLOTGE DIGITAL *********/
+.rellotge-amagar {
+  display: none;
+}
+.rellotge-mostrar {
+  display: block;
+}

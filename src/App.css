@@ -7,6 +7,7 @@
 .HolyGrail-body {
   display: flex;
   flex: 1;
+  text-align: center;
 }
 
 .HolyGrail-content {
@@ -15,8 +16,7 @@
 
 .HolyGrail-nav,
 .HolyGrail-ads {
-  /* 25% is the width of the columns */
-  flex: 0 0 20%;
+  flex: 0 0 25%;
 }
 
 .HolyGrail-nav {
@@ -30,7 +30,7 @@ footer {
   line-height: 5rem;
   text-align: center;
   padding: 0 1rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -38,6 +38,12 @@ main,
 nav,
 aside {
   padding: 2rem;
+}
+
+aside {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin: 2rem;
 }
 
 footer {
@@ -49,282 +55,21 @@ ul {
   display: flex;
   flex-direction: column;
 }
-
 li {
-  text-decoration: none; /*no funciona*/
-}
-
-/******* CALCULADORA STYLES *********/
-
-.Calculator {
-  margin: 0 auto;
-  max-width: 300px;
-}
-
-.Display {
-  text-align: right;
-  background-color: darkblue;
-  padding: 30px;
-  color: white;
-  font-size: 3rem;
-  font-weight: bold;
-  font-family: monospace;
-}
-
-.Numbers,
-.Buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background: orange;
-}
-
-:is(.Numbers, .Buttons) button {
-  flex: 0 0 33%;
-  padding: 30px;
-  background: lightgoldenrodyellow;
-  cursor: pointer;
-}
-
-.Numbers button:hover {
-  background-color: white;
-}
-
-.Numbers button:active {
-  background-color: grey;
-}
-
-.Buttons button {
-  background-color: aliceblue;
-}
-.Buttons {
-  background-color: lightskyblue;
-}
-
-/******* COMPTADOR STYLES *********/
-
-.Comptador {
-  margin: 20px auto;
-  max-width: 300px;
-}
-
-.Comptador__Display {
-  text-align: right;
-  background-color: darkblue;
-  padding: 30px;
-  color: white;
-  font-size: 3rem;
-  font-weight: bold;
-  font-family: monospace;
-}
-
-.Comptador__Buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: orange;
-}
-
-.Comptador__button {
-  flex: 0 50%;
-  padding: 30px;
-  background-color: lightsteelblue;
-  cursor: pointer;
-}
-
-.Comptador__button:hover {
-  background-color: whitesmoke;
-}
-
-.Comptador__button:active {
-  background-color: grey;
-}
-
-/******* GRAELLA FOTOS STYLES *********/
-
-.container {
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-}
-
-picture {
-  display: grid;
-  justify-content: center;
-}
-
-img {
-  padding: 20px;
-  width: 20vw;
-  height: auto;
-  cursor: pointer;
-}
-
-.full-screen img {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: auto;
-  cursor: pointer;
-}
-
-/******* ACORDIO STYLES *********/
-
-.Text {
-  display: block;
-}
-
-.Text-none {
-  display: none;
-}
-
-/******* COMPTADOR USESTATE *********/
-
-.Comptador-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.Comptador-button {
-  margin-top: 20px;
-  width: 20%;
-}
-/******* CARRUSEL STYLES *********/
-
-.carrusel {
-  position: relative;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.img-carrusel {
-  width: 30vw;
-  height: auto;
-  border-radius: 40px;
-}
-.left-arrow {
-  position: absolute;
-  top: 50%;
-  left: 25px;
-  font-size: 2rem;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-}
-.right-arrow {
-  position: absolute;
-  top: 50%;
-  right: 25px;
-  font-size: 2rem;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-}
-
-/******* GROUP BUTTON STYLES *********/
-
-.group-button-container {
-  text-align: center;
-}
-.group-button {
-  padding: 3rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.square-button {
-  width: 10vw;
-  height: 10vh;
-}
-.square-button:first-child {
-  margin-right: 2rem;
-}
-.square-button:last-child {
-  margin-left: 2rem;
-}
-.text-mostrar-container {
-  background: pink;
-  margin: 0 auto;
-  width: 15vw;
-  height: 10vh;
-  padding-top: 4vh;
-}
-
-/******* TOGGLEABLE SIDEBAR *********/
-
-.sidebar-container {
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-}
-.sidebar {
-  border: 1px solid grey;
-  background-color: rgb(215, 235, 241);
-  height: 50vh;
-  width: 15vw;
-  position: relative;
-}
-.sidebar-text {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-}
-.menu-icon {
-  font-size: 2rem;
-}
-
-/******* TABS *********/
-
-.tabs-container {
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.tabs-buttons button {
-  width: 10vw;
-  border-radius: 5px;
-}
-.tabs-buttons button:hover {
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-.tabs-buttons button:first-child {
+  list-style: none;
+  padding-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
   margin-right: 1rem;
-}
-.tabs-text {
-  width: 100%;
-  margin: 2rem auto;
+  border-top: 1px solid lightgrey;
   text-align: center;
 }
-
-/******* RELLOTGE DIGITAL *********/
-.rellotge-amagar {
-  display: none;
+li:last-child {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 0.5rem;
 }
-.rellotge-mostrar {
-  display: block;
-}
-
-/******* TIC TOE *********/
-.TicToe-board {
-  display: flex;
-}
-.TicToe-button {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 0;
-  border: none;
-  border-right: solid 1px black;
-}
-.TicToe-button:last-child {
-  border-right: none;
-}
-.TicToe-button:hover {
-  background: palegoldenrod;
-  cursor: pointer;
+li > .nav-link {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: rgb(57, 55, 55);
 }

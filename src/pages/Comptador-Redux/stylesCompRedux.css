@@ -1,0 +1,12 @@
+/******* COMPTADOR REDUX *********/
+
+.Comptador-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Comptador-button {
+  margin-top: 20px;
+  width: 20%;
+}
