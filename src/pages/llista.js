@@ -13,6 +13,7 @@ import { GroupButton } from "./GroupButton/GroupButton";
 import { ToggleableSidebar } from "./ToggleSidebar/ToggleableSidebar";
 import { Tabs } from "./Tabs/Tabs";
 import { RellotgeDigital } from "./RellotgeDigital/RellotgeDigital";
+import { SumadorNumeros } from "./SumadorNumeros/SumadorNumeros";
 // import { TicToe } from "./TicToe/TicToe";
 
 const llista = [
@@ -30,6 +31,12 @@ const llista = [
     titol: "Tabs",
     element: <Tabs />,
   },
+  {
+    path: "/sumador-numeros",
+    titol: "Sumador Números",
+    element: <SumadorNumeros />,
+  },
+
   {
     path: "/rellotge-digital",
     titol: "Rellotge digital",
