@@ -12,8 +12,8 @@ import { Carrusel } from "./Carrusel/Carrusel";
 import { GroupButton } from "./GroupButton/GroupButton";
 import { ToggleableSidebar } from "./ToggleSidebar/ToggleableSidebar";
 import { Tabs } from "./Tabs/Tabs";
-// import { RellotgeDigital } from "./RellotgeDigital";
-import { TicToe } from "./TicToe/TicToe";
+import { RellotgeDigital } from "./RellotgeDigital/RellotgeDigital";
+// import { TicToe } from "./TicToe/TicToe";
 
 const llista = [
   { path: "/avatar", titol: "Avatar", element: <Avatar /> },
@@ -30,16 +30,16 @@ const llista = [
     titol: "Tabs",
     element: <Tabs />,
   },
-  // {
-  //   path: "/rellotge-digital",
-  //   titol: "Rellotge digital",
-  //   element: <RellotgeDigital />,
-  // },
   {
-    path: "/tic-toe",
-    titol: "Tic Toe",
-    element: <TicToe />,
+    path: "/rellotge-digital",
+    titol: "Rellotge digital",
+    element: <RellotgeDigital />,
   },
+  // {
+  //   path: "/tic-toe",
+  //   titol: "Tic Toe",
+  //   element: <TicToe />,
+  // },
 
   {
     path: "/graella-fotos",
